@@ -242,7 +242,7 @@ def generate_key():
         )
     )
 
-    return f"Kama1-{random_part}"
+    return f"Kesav1-{random_part}"
 
 # ================= GENERATE KEYS =================
 # Usage:
