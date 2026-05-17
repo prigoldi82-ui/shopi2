@@ -12,7 +12,7 @@ from telethon import TelegramClient, events, Button
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
 # Direct API endpoint (replaces checker_bridge)
-CHECKER_API_URL = 'checker-api-production-ec39.up.railway.app/shopify-checker'
+CHECKER_API_URL = 'checker-api-production-ec39.up.railway.app/shopify-checker?cc='
 
 def is_owner(user_id):
 
